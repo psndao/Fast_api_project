@@ -30,13 +30,13 @@ pip install httpx
 L'API est accessible à l'adresse suivante :
 
 ```
-http://localhost:8000
+http://127.0.0.1:8000
 ```
 
 L'interface Swagger est disponible ici :
 
 ```
-http://localhost:8000/docs
+http://127.0.0.1:8000/docs
 ```
 
 ---
@@ -138,8 +138,7 @@ Les contributions sont les bienvenues !
 *A venir*
 
 ## Auteur
-
-Développé par [Josué AFOUDA](https://www.linkedin.com/in/josu%C3%A9-afouda/) en FastAPI.
+PAPE NDAO
 
 ---
 
