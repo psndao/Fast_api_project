@@ -1,9 +1,10 @@
 from fastapi import FastAPI, Depends, HTTPException, Query, Path
 from sqlalchemy.orm import Session
 from typing import List, Optional
-from database import SessionLocal
-import query_helpers as helpers
-import schemas
+from .database import SessionLocal
+from . import query_helpers as helpers
+from . import schemas
+
 
 api_description = """
 Bienvenue dans l'API MovieLens
