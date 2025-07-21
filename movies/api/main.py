@@ -4,6 +4,8 @@ from typing import List, Optional
 from .database import SessionLocal
 from . import query_helpers as helpers
 from . import schemas
+from . import models
+
 
 
 api_description = """
