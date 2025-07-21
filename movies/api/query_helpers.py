@@ -3,7 +3,8 @@ from sqlalchemy.orm import Session
 from sqlalchemy.orm import joinedload
 from typing import Optional
 
-import models
+from . import models
+
 
 # --- Films ---
 def get_movie(db: Session, movie_id: int):
